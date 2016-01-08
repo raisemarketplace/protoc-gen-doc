@@ -1,4 +1,5 @@
 [protoc-gen-doc]
 name=Documentation generator plugin for Google Protocol Buffers
 baseurl=https://estan.github.io/repo/CentOS/7/$basearch
+gpgcheck=0
 enabled=1
