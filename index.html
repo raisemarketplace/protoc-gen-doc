@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CentOS 7 repository for protoc-gen-doc</title>
+        <style>
+            html {
+                background-color: #eee;
+            }
+            body {
+                font-family: sans-serif;
+                width: 800px;
+                background-color: white;
+                margin: 1rem auto;
+                padding: 2rem;
+                border: 1px solid #ddd;
+                border-radius: 1rem;
+            }
+            pre {
+                background-color: #eee;
+                margin: 1rem;
+                padding: 1rem;
+                border: 1px solid #ccc;
+                border-radius: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CentOS 7 repository for protoc-gen-doc</h1>
+
+        <p>This is a <em>x86_64-only</em> CentOS 7 repository for
+        <a href="https://github.com/estan/protoc-gen-doc">protoc-gen-doc</a>.</p>
+
+        <p>Enable the repository and install the package with:</p>
+        <pre>
+curl -o /etc/yum.repos.d/protoc-gen-doc.repo http://tinyurl.com/protoc-gen-doc-repo
+yum install -y epel-release
+yum install -y protoc-gen-doc</pre>
+
+        <p>The EPEL repository is needed to get recent versions of
+        <code>qt5-qtbase</code> and <code>protobuf-devel</code>.</p>
+    </body>
+</html>
